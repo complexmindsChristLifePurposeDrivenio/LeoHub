@@ -1,0 +1,159 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Cornerstone OS//13-Week Operating Blueprint//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Cornerstone OS 90-Day Blueprint
+X-WR-TIMEZONE:America/Chicago
+X-WR-CALDESC:Official 13-Week Operating Blueprint beginning Sept 21 2026. 143 scheduled events covering Cornerstone infrastructure, AI agents, content engine, distribution, brand divisions, products, sales, and weekly reviews.
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+X-LIC-LOCATION:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:cornerstone-w1-mon-am@cmplay.internal
+DTSTAMP:20261008T100000Z
+DTSTART;TZID=America/Chicago:20260921T090000
+DTEND;TZID=America/Chicago:20260921T120000
+SUMMARY:W1 Strategy + Architecture: Foundation (Cornerstone OS)
+DESCRIPTION:Plan and select Week 1's primary outcome for Foundation.\nDeliverable: Week 1 Scope Document & Target Deliverable Definition\nFocus: Cornerstone\, GitHub\, Supabase\, Sanity
+LOCATION:Cornerstone Architecture War Room / Zoom
+CATEGORIES:Cornerstone OS,Cornerstone OS,Foundation
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:cornerstone-w1-mon-pm@cmplay.internal
+DTSTAMP:20261008T100000Z
+DTSTART;TZID=America/Chicago:20260921T130000
+DTEND;TZID=America/Chicago:20260921T160000
+SUMMARY:Daily Afternoon Block: Architecture QA & Deep Learning (W1)
+DESCRIPTION:Focus: Deep learning & environment setup\nActivity: Research tooling\, evaluate dependencies for Cornerstone\, GitHub\, Supabase\, Sanity\, and calibrate architecture parameters.
+LOCATION:Deep Work Lab
+CATEGORIES:Cornerstone OS,Cornerstone OS,Foundation
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:cornerstone-w1-tue-am@cmplay.internal
+DTSTAMP:20261008T100000Z
+DTSTART;TZID=America/Chicago:20260922T090000
+DTEND;TZID=America/Chicago:20260922T120000
+SUMMARY:W1 Build + Capture: Heavy Technical Development
+DESCRIPTION:Heavy technical/product development for Foundation.\nDeliverable: Core functional code\, schema migrations\, and engine build commits\nStack: Cornerstone OS\, GitHub\, Supabase\, Sanity CMS\, n8n\, TypeScript
+LOCATION:GitHub Monorepo / VS Code
+CATEGORIES:Cornerstone OS,Cornerstone OS,Foundation
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:cornerstone-w1-tue-pm@cmplay.internal
+DTSTAMP:20261008T100000Z
+DTSTART;TZID=America/Chicago:20260922T130000
+DTEND;TZID=America/Chicago:20260922T160000
+SUMMARY:Daily Afternoon Block: Technical Capture & Screen-Record (W1)
+DESCRIPTION:Focus: Creative capture & screen-recording\nActivity: Capture live workflow walkthroughs\, terminal demos\, and product footage for content assets.
+LOCATION:Studio Capture Rig
+CATEGORIES:Cornerstone OS,Cornerstone OS,Foundation
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:cornerstone-w1-wed-am@cmplay.internal
+DTSTAMP:20261008T100000Z
+DTSTART;TZID=America/Chicago:20260923T090000
+DTEND;TZID=America/Chicago:20260923T120000
+SUMMARY:W1 Assembly + Production: Working System Integration
+DESCRIPTION:Connect the pieces into a working system for Foundation.\nDeliverable: Working pipeline integration across frontend\, backend\, and external APIs
+LOCATION:Staging Pipeline
+CATEGORIES:Cornerstone OS,Cornerstone OS,Foundation
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:cornerstone-w1-wed-pm@cmplay.internal
+DTSTAMP:20261008T100000Z
+DTSTART;TZID=America/Chicago:20260923T130000
+DTEND;TZID=America/Chicago:20260923T160000
+SUMMARY:Daily Afternoon Block: Pipeline QA & System Testing (W1)
+DESCRIPTION:Focus: System testing & pipeline QA\nActivity: Stress-test failure modes\, run automated test suites\, and refine UI micro-interactions.
+LOCATION:QA Environment
+CATEGORIES:Cornerstone OS,Cornerstone OS,Foundation
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:cornerstone-w1-thu-am@cmplay.internal
+DTSTAMP:20261008T100000Z
+DTSTART;TZID=America/Chicago:20260924T090000
+DTEND;TZID=America/Chicago:20260924T120000
+SUMMARY:W1 Distribution + Monetization: Packaging & Demos
+DESCRIPTION:Turn the work into content\, products\, demos\, leads\, or sales assets.\nDeliverable: Ready-to-publish YouTube package\, vertical short clips\, and marketing copy
+LOCATION:Creator Studio / ClipForge
+CATEGORIES:Cornerstone OS,Cornerstone OS,Foundation
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:cornerstone-w1-thu-pm@cmplay.internal
+DTSTAMP:20261008T100000Z
+DTSTART;TZID=America/Chicago:20260924T130000
+DTEND;TZID=America/Chicago:20260924T160000
+SUMMARY:Daily Afternoon Block: Syndication & Asset Scheduling (W1)
+DESCRIPTION:Focus: Syndication & revenue deployment\nActivity: Schedule cross-platform drops across YouTube\, X\, TikTok\, and community channels; audit checkout links.
+LOCATION:Distribution Dispatch
+CATEGORIES:Cornerstone OS,Cornerstone OS,Foundation
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:cornerstone-w1-fri-am@cmplay.internal
+DTSTAMP:20261008T100000Z
+DTSTART;TZID=America/Chicago:20260925T090000
+DTEND;TZID=America/Chicago:20260925T120000
+SUMMARY:W1 Reflection + Business Operations: Progress & Blockers
+DESCRIPTION:Review progress\, analytics\, revenue\, blockers\, documentation\, and next week's priorities.\nDeliverable: Updated system docs\, GitHub release notes\, and blocker post-mortem
+LOCATION:Operations Desk
+CATEGORIES:Cornerstone OS,Cornerstone OS,Foundation
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:cornerstone-w1-fri-pm@cmplay.internal
+DTSTAMP:20261008T100000Z
+DTSTART;TZID=America/Chicago:20260925T130000
+DTEND;TZID=America/Chicago:20260925T160000
+SUMMARY:Daily Afternoon Block: Analytics Audit & Cleanup (W1)
+DESCRIPTION:Focus: Data analytics & workspace cleanup\nActivity: Audit viewer retention curves\, Stripe sales telemetry\, and clean git branches.
+LOCATION:Analytics Telemetry Desk
+CATEGORIES:Cornerstone OS,Cornerstone OS,Foundation
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:cornerstone-w1-fri-evening@cmplay.internal
+DTSTAMP:20261008T100000Z
+DTSTART;TZID=America/Chicago:20260925T170000
+DTEND;TZID=America/Chicago:20260925T193000
+SUMMARY:W1 Friday Evening: Cornerstone Scorecard + Content Command Logbook
+DESCRIPTION:Official weekly review & sign-off.\nDeliverables:\n1. Cornerstone Scorecard\n2. Content Command Logbook\nRule: Blueprint -> Calendar -> Outcome -> Build -> Content -> Distribution -> Revenue -> Review.
+LOCATION:Executive Scorecard Portal
+CATEGORIES:Cornerstone OS,Cornerstone OS,Foundation
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
